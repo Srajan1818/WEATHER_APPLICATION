@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            background:burlywood;
+            padding: 20px 30px;
+            border-radius: 12px;
+            text-align: center;
+            width: 300px;
+        }
+        h1{
+            color: #333;
+            margin-bottom:15px ;
+        }
+        input[type="text"]{
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        }
+        get-weather-btn:hover{
+            background: #0056b3;
+        }
+        #weather-info{
+            margin-top: 15px;
+        }
+        #city-name{
+            font-size: 1.2em;
+        }
+        #description{
+            font-size: 1.2em;
+        }
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-container">
+            <input type="text" name="" id="city-input" placeholder="Enter City name"/>
+            <button id="get-weather-btn">Get Weather</button>
+        </div>
+        <div id="weather-info" class="hidden">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+   <p id="error-message" class="hidden">City not found please try again.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
