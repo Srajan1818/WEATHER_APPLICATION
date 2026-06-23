@@ -20,14 +20,8 @@ A responsive weather application built with **HTML**, **CSS**, and **JavaScript*
 - **JavaScript (ES6+)** – Logic and API integration
 - **OpenWeatherMap API** – Real-time weather data
 
+---
+
 **Run the app**
-
-   Simply open `index.html` in your browser:
-```bash
-   open index.html
-```
-   Or use a live server extension in VS Code.
-
-
-
+To see the output click on the Link!!!
 https://srajan1818.github.io/WEATHER_APPLICATION/
