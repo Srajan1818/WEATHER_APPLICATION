@@ -27,3 +27,7 @@ A responsive weather application built with **HTML**, **CSS**, and **JavaScript*
    open index.html
 ```
    Or use a live server extension in VS Code.
+
+
+
+https://srajan1818.github.io/WEATHER_APPLICATION/
