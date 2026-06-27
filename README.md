@@ -22,6 +22,6 @@ A responsive weather application built with **HTML**, **CSS**, and **JavaScript*
 
 ---
 
-**Run the app**
-To see the output click on the Link!!!
-https://srajan1818.github.io/WEATHER_APPLICATION/
+## 🌐 Live Demo
+
+👉 **[Click here to view the app](https://srajan1818.github.io/WEATHER_APPLICATION/)**
